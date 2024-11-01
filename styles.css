@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 400px;
+    padding-right: 50px;
+    color: blue;
+    font-size: 24px;
+}
+
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow';
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: blue;
+    border-radius: 8px;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+.text{
+    font-size: 28px; 
+}
+
+h1{
+    font-size: 52px;
+}
+
+.footer{
+    font-size: 28px; 
+}
