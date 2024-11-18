@@ -1,10 +1,10 @@
 .container{
     display: flex;
     justify-content: space-between;
-    padding-left: 400px;
-    padding-right: 50px;
     color: blue;
     font-size: 24px;
+    margin-top: 20px;
+    width:100%;
 }
 
 body{
@@ -13,20 +13,186 @@ body{
 
 ::-webkit-scrollbar-thumb{
     background-color: blue;
-    border-radius: 8px;
+    border-radius: 3px;
 }
 ::-webkit-scrollbar{
-    width: 10px;
+    width: 7px;
 }
 
 .text{
     font-size: 28px; 
+    color: white;
 }
 
 h1{
     font-size: 52px;
+    color:white;
+    text-align: center;
+}
+
+h2{
+    color:white;
+    text-align: center;  
 }
 
 .footer{
     font-size: 28px; 
+}
+
+.button{
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    border-radius: 8px;
+    font-size: 22px;
+    font-weight:700;
+}
+
+.cover{
+    padding-top: 40px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgb(40, 40, 40);
+    border-radius: 30px;
+    margin-bottom: 50px;
+}
+
+header{
+    display: flex;
+    gap: 200px;
+    padding-right: 50px;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.skillsTitle{
+    font-size: 52px;
+    text-align: center;
+    color: black;
+}
+
+.skills{
+    font-size:32px;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+.skillContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.codeContainer{
+    padding-top: 10px;;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    background-color: rgb(40, 40, 40);
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.codeTitle{
+    font-size: 42px;
+    text-align: center;
+}
+
+code{
+    color:rgb(0, 157, 13);
+    font-size: 28px;
+    text-align: start;
+}
+
+.ASCII{
+    font-size: 28px;
+    text-align: start;
+    color:black; 
+    padding-left: 100px;
+    margin-top: 20px;
+}
+
+.service{
+    padding-top: 10px;;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    background-color: blue;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-right: 30px;
+    margin-left: 30px;
+    width: 100%;
+}
+
+.serviceContainer{
+    display: flex;
+}
+
+.serviceLabel{
+    font-size: 52px;
+    text-align: center;
+    margin-bottom: 20px;
+    width:100%;
+    color:black;
+}
+
+.serviceTitle{
+    font-size: 32px;
+    text-align: left;
+}
+
+.serviceItem{
+    font-size: 22px;
+    color:white;
+}
+
+.quote{
+    margin-top: 50px;
+    font-size: 28px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.articleContainer{
+    padding-top: 10px;;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    background-color: blue;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-left: 50px;  
+}
+
+.articleButton{
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(40,40,40);
+    color: white;
+    border-radius: 8px;
+    font-size: 22px;
+    font-weight:700;  
+}
+
+.articleTitle{
+    color: white;
+    font-size: 46px;
+}
+
+.articleText{
+    font-size: 28px;
+    color:white;
+}
+
+.footer{
+    
 }
