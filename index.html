@@ -1,42 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+    <script src="script.js"></script>
+    <title>Union c0de</title>
 </head>
-<div class = "body__container">
+<div class="body__container">
+
     <body>
         <header>
             <div class="container">
-                <div>Element 1</div>
-                <div>Element 2</div>
-                <div>Element 3</div>
-                <div>Element 4</div>
+                <nav>Element 1</nav>
+                <nav>Element 2</nav>
+                <nav>Element 3</nav>
+                <nav>Element 4</nav>
             </div>
-            <div class = "Logo">
-                <img src = "C:\Users\User\Desktop\HTML\photo_2024-09-25_10-38-38.jpg"> 
+            <div class="logo">
+                <img src="./image.jpg" style="height: 100px;width: 100px;">
             </div>
         </header>
+        <div class="cover">
+            <h1>Union c0de</h1>
+            <h2>Coding on C++,C#,Python</h2>
+            <div class="text">text</div>
+            <div class="text">text</div>
+            <div class="text">text</div>
+            <div class="text">text</div>
+            <div class="text">text</div>
+            <div class="text">text</div>
+            <div class="text">text</div>
+            <div class="text">text</div>
+            <div class="text">text</div>
+            <div class="text">text</div>
+            <div class="text">text</div>
+            <div class="text">text</div>
+            <button class="button">Button</button>
+        </div>
         
-        <h1>Union c0de</h1>
-        <h2>Coding on C++,c#,Python</h2>
-        <div class="text">text</div>
-        <div class="text">text</div>
-        <div class="text">text</div>
-        <div class="text">text</div>
-        <div class="text">text</div>
-        <div class="text">text</div>
-        <div class="text">text</div>
-        <div class="text">text</div>
-        <div class="text">text</div>
-        <div class="text">text</div>
-        <div class="text">text</div>
-        <div class="text">text</div>
+        <div class="skillContainer">
+            <h2 class="skillsTitle">Skills</h2>
+            <ol>
+                <li class="skills">Skill 1</li>
+                <li class="skills">Skill 2</li>
+                <li class="skills">Skill 3</li>
+                <li class="skills">Skill 4</li>
+                <li class="skills">Skill 5</li>
+            </ol>
+        </div>
+
+        <aside class = "ASCII">
+            <pre>
+                ___   _____ ______________     ___    ____  ______
+                /   | / ___// ____/  _/  _/    /   |  / __ \/_  __/
+               / /| | \__ \/ /    / / / /     / /| | / /_/ / / /   
+              / ___ |___/ / /____/ /_/ /     / ___ |/ _, _/ / /    
+             /_/  |_/____/\____/___/___/    /_/  |_/_/ |_| /_/
+            </pre>
+        </aside>
+
+        <h2 class = "serviceLabel"> My Services</h2>
+        <div class = "serviceContainer">
+            <section class = "service">
+                <h2 class = "serviceTitle">Service 1</h2>
+                <p class="serviceItem">Text</p>
+                <p class="serviceItem">Text</p>
+                <p class="serviceItem">Text</p>
+                <p class="serviceItem">Text</p>
+            </section>
+            <section class = "service">
+                <h2 class = "serviceTitle">Service 1</h2>
+                <p class="serviceItem">Text</p>
+                <p class="serviceItem">Text</p>
+                <p class="serviceItem">Text</p>
+                <p class="serviceItem">Text</p>
+            </section>
+            <section class = "service">
+                <h2 class = "serviceTitle">Service 1</h2>
+                <p class="serviceItem">Text</p>
+                <p class="serviceItem">Text</p>
+                <p class="serviceItem">Text</p>
+                <p class="serviceItem">Text</p>
+            </section>
+        </div>
+        
+        <article class = "quote">Лишь утратив всё до конца, мы обретаем свободу.<sub class="quoteSub">@Тайлер Дерден</sub></article>
+        
+        <div class ="codeContainer">
+            <h2 class="codeTitle">Code snippet</h2>
+            <code>
+                <pre>
+void readFile(string path, string* &arr, int &size) {
+    ifstream in(path); 
+    if (in.is_open()) {
+        string str;
+        while (getline(in, str))
+            addStrToEnd(arr, str, size++);
+        }
+
+    }
+    else
+    {
+        cout << "File is not found!";
+    }
+
+in.close();
+                </pre>
+            </code>
+        </div>
+        
+        <div class = "articleContainer">
+            <article>
+                <h2 class="articleTitle">Order program</h2>
+                <p class = "articleText">Some text</p>
+                <button class="articleButton">Button</button>
+            </article>
+        </div>
+
         <footer>
-            <main class = "footer">Some footer info</main>
+            <main class="footer">Some footer info</main>
         </footer>
     </body>
 </div>
+
 </html>
